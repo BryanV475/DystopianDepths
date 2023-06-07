@@ -45,6 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afcf53ae319ade40a0c83b5480b4bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelStartDelay: 2
+  turnDelay: 1
+  health: 100
+  playersTurn: 1
   boardManager: {fileID: 0}
 --- !u!114 &3348053024668250315
 MonoBehaviour:
@@ -70,8 +74,6 @@ MonoBehaviour:
   floorTiles:
   - {fileID: 7728921158808803681, guid: 7d7ddabcdda0e264088a219a5425c928, type: 3}
   - {fileID: 5621953464059795539, guid: 91fa0a3ab334bd8438336d5cd91980b0, type: 3}
-  - {fileID: 7253283608926774465, guid: 8162c1656cb4cfc4e815e777707abb21, type: 3}
-  - {fileID: 4968779659898844622, guid: 790070256411fba48b1ae6cdb676932d, type: 3}
   - {fileID: 1027427530383366328, guid: fce469756c446d940b1e12f75a284136, type: 3}
   - {fileID: 855462017012672339, guid: 185063d971fd56841be45ca15d2620c4, type: 3}
   - {fileID: 3622378622691547376, guid: f97bdd2758bc0a241b18d603b7f4c0c7, type: 3}

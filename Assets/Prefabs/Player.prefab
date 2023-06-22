@@ -168,10 +168,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5e209d7eb599c04b9c1d6a47aeedf55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveTime: 0.1
+  moveTime: 0.05
   blockLayer:
     serializedVersion: 2
     m_Bits: 64
-  wallDamage: 1
-  scorePerItem: 20
+  wallDamage: 2
+  healthPerItem: 20
   restartLevelDelay: 1
+  healthText: {fileID: 0}

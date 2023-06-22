@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Player : MovingObject
 {
     // Attributes
-    public int wallDamage = 1;
+    public int wallDamage = 2;
     public int healthPerItem = 20;
     public float restartLevelDelay = 1f;
     public Text healthText;
@@ -140,6 +140,19 @@ public class Player : MovingObject
         {
             vertical = 0;
         }
+
+        if (horizontal < 0)
+        {
+            // Rotate the sprite to face left
+            this.transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if (horizontal > 0)
+        {
+            // Rotate the sprite to face right
+            this.transform.localScale = new Vector3(1, 1, 1);
+        }
+
+        
 
         // If there is movement input, attempt to move the player
         if (horizontal != 0 || vertical != 0)

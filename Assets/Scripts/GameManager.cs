@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     // Attributes
     public float levelStartDelay = 2f;
-    public float turnDelay = 1f;
+    public float turnDelay = 0.5f;
     public int health = 100;
     [HideInInspector] public bool playersTurn = true;
     public static GameManager instance = null;
